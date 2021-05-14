@@ -5,20 +5,36 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    <link rel="stylesheet" href="src/assets/tailwind.css">-->
     <title>Tailwind Figma</title>
 </head>
 <body>
-<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-    <div class="md:flex">
-        <div class="md:flex-shrink-0">
-            <img class="h-48 w-full object-cover md:h-full md:w-48" src="img/hacker-bridge-1694067_960_720.jpg" alt="Man looking at item at a store">
+<div class="container max-w-full mx-auto p-0.5 bg-white">
+    <div class="nav bg-gray-200 h-12">
+            <ul class="flex justify-center">
+                <li class="mt-2 mr-8 text-black"><a href="#">Доставка</a></li>
+                <li class="mt-2 mr-8 text-black"><a href="#">Оплата</a></li>
+                <li class="mt-2 mr-8 text-black"><a href="#">Отзывы</a></li>
+                <li class="mt-2 mr-8 text-black"><a href="#">Вопрос - ответ</a></li>
+                <li class="mt-2 mr-8 text-black"><a href="#">Контакты</a></li>
+            </ul>
+    </div>
+    <div class="header-top h-36 flex justify-between items-center mt-2">
+        <div class="logo flex items-center ml-60"><img class="mr-5 h-20 w-20" src="img/logo.svg" alt=""><span class="text-green-600 font-bold text-4xl">BEAUTY</span></div>
+        <div class="header-info mr-60">
+            <span class=" text-base text-black">8 (812) 123-45-67</span>
+            <button type="button" class="text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Обратный звонок</button>
         </div>
-        <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
-            <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-            <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-        </div>
+    </div>
+    <hr class="leading-3">
+    <div class="header-bottom mt-6">
+        <ul class="nav-bottom flex justify-center">
+            <li class="pr-10"><a class="text-base font-normal text-black" href="#"></a>Парикмахерская</li>
+            <li class="pr-10"><a href="#"></a>Барбершоп</li>
+            <li class="pr-10"><a href="#"></a>Маникюр</li>
+            <li class="pr-10"><a href="#"></a>Педикюр</li>
+            <li class="pr-10"><a href="#"></a>Массаж</li>
+            <li class="pr-10"><a href="#"></a>Мебель</li>
+        </ul>
     </div>
 </div>
 </body>
