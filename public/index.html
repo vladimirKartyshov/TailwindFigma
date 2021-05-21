@@ -9,7 +9,7 @@
     <title>Tailwind Figma</title>
 </head>
 <body>
-<div class="container max-w-full mx-auto p-0.5 bg-white">
+<div class="container max-w-full mx-auto p-0.5 bg-gray-100">
     <div class="nav bg-gray-200 h-12">
             <ul class="flex justify-center">
                 <li class="mt-2 mr-8 text-black"><a href="#">Доставка</a></li>
@@ -32,19 +32,19 @@
         </div>
     </div>
     <hr class="leading-3">
-    <div class="header-bottom mt-6">
-        <ul class="nav-bottom flex justify-center">
-            <li class="pr-10"><a href="#"></a>Парикмахерская</li>
-            <li class="pr-10"><a href="#"></a>Барбершоп</li>
-            <li class="pr-10"><a href="#"></a>Маникюр</li>
-            <li class="pr-10"><a href="#"></a>Педикюр</li>
-            <li class="pr-10"><a href="#"></a>Массаж</li>
-            <li class="pr-10"><a href="#"></a>Мебель</li>
-        </ul>
-    </div>
-    <div class="relative mt-12">
+        <div class="header-bottom">
+            <ul class="nav-bottom flex justify-center bg-white h-20 p-4">
+                <li class="pr-10"><a href="#"></a>Парикмахерская</li>
+                <li class="pr-10"><a href="#"></a>Барбершоп</li>
+                <li class="pr-10"><a href="#"></a>Маникюр</li>
+                <li class="pr-10"><a href="#"></a>Педикюр</li>
+                <li class="pr-10"><a href="#"></a>Массаж</li>
+                <li class="pr-10"><a href="#"></a>Мебель</li>
+            </ul>
+        </div>
+    <div class="relative">
         <img class="" src="img/bg.png">
-        <div class="absolute top-44 left-28">
+        <div class="absolute top-44 left-28 ">
             <p class="text-black-600 font-bold text-5xl">Супер кресло</p>
         </div>
         <div class="absolute top-64 left-28">
@@ -52,59 +52,76 @@
                 болтовню, поэтому внимательнее</p>
         </div>
         <div class="absolute bottom-28 left-16">
-            <button type="button" class=" mt-2 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
+            <button type="button" class="mb-2 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
         </div>
     </div>
-    <div class="chairs mt-8 ml-24">
+    <div class="chairs mt-8 ml-24 bg-gray-100">
         <p class="font-bold text-2xl mb-10">Специальные предложения</p>
         <div class="vacation-card grid grid-cols-4 justify-items-center">
             <div class="vacation-card-info">
-                <div>
-                    <img class="vacation-card-image mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
+                <div class="bg-white mr-24">
+                    <img class="vacation-card-image pt-6 mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
                     <div class="vacation-card-eyebrow mb-4 text-center">Парикмахерское кресло <br> «Норм» гидравлическое</div>
                     <div class="vacation-card-title mb-4 text-center">
                         <p>9 900 ₽ </p>
                     </div>
                     <div>
-                        <button type="button" class="mr-12 mt-2 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
+                        <button type="button" class="mb-8 mr-12 mt-2 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
                     </div>
                 </div>
             </div>
             <div class="vacation-card-info">
-                <div>
-                    <img class="vacation-card-image mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
+                <div class="bg-white">
+                    <img class="vacation-card-image pt-6 mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
                     <div class="vacation-card-eyebrow mb-4 text-center">Парикмахерское кресло <br> «Норм» гидравлическое</div>
                     <div class="vacation-card-title mb-4 text-center">
                         <p>9 900 ₽ </p>
                     </div>
                     <div>
-                        <button type="button" class=" mt-2 mr-12 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
+                        <button type="button" class="mb-8 mt-2 mr-12 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
                     </div>
                 </div>
             </div>
             <div class="vacation-card-info">
-                <div>
-                    <img class="vacation-card-image mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
+                <div class="bg-white">
+                    <img class="vacation-card-image pt-6 mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
                     <div class="vacation-card-eyebrow mb-4 text-center">Парикмахерское кресло <br> «Норм» гидравлическое</div>
                     <div class="vacation-card-title text-center mb-4">
                         <p>9 900 ₽ </p>
                     </div>
                     <div>
-                        <button type="button" class="mr-12 mt-2 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
+                        <button type="button" class="mr-12 mt-2 mb-8 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
                     </div>
                 </div>
             </div>
             <div class="vacation-card-info">
-                <div>
-                    <img class="vacation-card-image mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
+                <div class="bg-white">
+                    <img class="vacation-card-image pt-6 mb-6 ml-12" src="img/chair.png" alt="Beach in Cancun">
                     <div class="vacation-card-eyebrow mb-4 text-center">Парикмахерское кресло <br> «Норм» гидравлическое</div>
                     <div class="vacation-card-title mb-4 text-center">
                         <p>9 900 ₽ </p>
                     </div>
                     <div>
-                        <button type="button" class="mr-12 mb-8 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
+                        <button type="button" class="mr-12 mt-2 mb-8 text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Подробнее</button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-cards mt-16 bg-green-600">
+        <div class="card flex justify-between">
+            <div class="description">
+                <p>Получайте бонусы и подарки</p>
+                <p>Каждый месяц разыгрываем<br>
+                    10 000 рублей для наших клиентов</p>
+                <button class="text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Введите e-mail</button>
+                <img class="" src="img/envelope.svg" alt="">
+            </div>
+            <div class="description">
+                <p>Заходите к нам</p>
+                <p>Более 300 магазинов
+                    по всей России</p>
+                <button class="text-sm ml-10 pl-10 bg-white hover:bg-green-400 delay-200 rounded-3xl border-green-500 border-2 py-2.5 pr-11">Карта магазинов</button>
             </div>
         </div>
     </div>
